@@ -19,6 +19,8 @@ dlOrders.forEach(dlOrders => {
   statusElement.textContent = delivered === "true" ? "Delivered" : "Pending"
 })
 
+//Other way
+
 // const order1 = document.querySelector("[data-key='order1']");
 // const biscuits1 = order1.querySelector(".biscuits .count");
 // const donuts1 = order1.querySelector(".donuts .count");
